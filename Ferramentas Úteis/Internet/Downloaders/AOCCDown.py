@@ -1,4 +1,4 @@
-ï»¿from urllib.request import Request, urlopen
+from urllib.request import Request, urlopen
 import sys, os
 
 if sys.platform[:3] == 'win':
