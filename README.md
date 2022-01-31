@@ -1,2 +1,2 @@
 # Python Collection
-My personal collection of Python scripts
+Minha coleção pessoal de scripts em Python
