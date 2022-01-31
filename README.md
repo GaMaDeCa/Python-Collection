@@ -1,2 +1,2 @@
-# Python-Collection
-Some python scripts that I tried to write ;)
+# Python Collection
+My personal collection of Python scripts
