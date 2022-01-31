@@ -1,0 +1,12 @@
+ola/:;:\Oi<-SPLIT_BOT->
+qual linguagem vc foi feito?/:;:\Python<-SPLIT_BOT->
+bom dia/:;:\Bom dia<-SPLIT_BOT->
+tudo bem?/:;:\Sim, e vc?<-SPLIT_BOT->
+otimo/:;:\Bom.<-SPLIT_BOT->
+eita/:;:\O que foi?<-SPLIT_BOT->
+errei/:;:\Todo mundo erra...<-SPLIT_BOT->
+sinto fraqueza/:;:\Tente comer algo pra ver se melhora, e tome muita água<-SPLIT_BOT->
+estou triste/:;:\Não fique triste<-SPLIT_BOT->
+com raiva/:;:\Tente se acalmar e pense com clareza pra que não aconteça algo que vc poderá se arrepender mais pra frente<-SPLIT_BOT->
+me recomenda uma bebida/:;:\Café, muito café<-SPLIT_BOT->
+pq nao consigo fazer nada do que penso?/:;:\As vezes suas aspirações tendem a ser muito irrealistas, analise sua realidade(Barnum Effect/Efeito Forer)
