@@ -1,4 +1,5 @@
-#Teste
+# Teste
+# O caule ta meio torto ;_;
 
 a=input('Caractere: ') # '*'
 espaco=' '
