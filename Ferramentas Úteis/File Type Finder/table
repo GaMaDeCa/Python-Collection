@@ -1,0 +1,198 @@
+Assinatura Hexadecimal,ISO 8859-1,Offset,Extensão,Descrição
+2321,#!,0,,Script or data to be passed to the program following the shebang (#!)
+D4C3B2A1(little-endian)|A1B2C3D4(big-endian),ÔÃ²¡|¡²ÃÔ,0,pcap,Libpcap File Format[1]
+4D3CB2A1(little-endian)|A1B23C4D(big-endian),M<²¡|¡²<M,0,pcap,Libpcap File Format (nanosecond-resolution)[1]
+0A0D0D0A,????,0,pcapng,PCAP Next Generation Dump File Format[2]
+EDABEEDB,í«îÛ,0,rpm,RedHat Package Manager (RPM) package [3]
+53514C69746520666F726D6174203300,SQLite format 3?,0,sqlitedb|sqlite|db,SQLite Database [4]
+53503031,SP01,0,bin,Amazon Kindle Update Package [5]
+00,?,0,PIC|PIF|SEA|YTR,IBM Storyboard bitmap file|Windows Program Information File|Mac Stuffit Self-Extracting Archive|IRIS OCR data file
+000000000000000000000000000000000000000000000000,????????????????????????,11,PDB,PalmPilot Database/Document File
+BEBAFECA,¾ºþÊ,0,DBA,Palm Desktop Calendar Archive
+00014244,??BD,0,DBA,Palm Desktop To Do Archive
+00014454,??DT,0,TDA,Palm Desktop Calendar Archive
+54444624,TDF$,0,TDF$,Telegram Desktop File
+54444546,TDEF,0,TDEF,Telegram Desktop Encrypted File
+00010000,????,0,,Palm Desktop Data File (Access format)
+00000100,????,0,ico,Computer icon encoded in ICO file format[6]
+69636e73,icns,0,icns,Apple Icon Image format
+667479703367,ftyp3g,4,3gp|3g2,3rd Generation Partnership Project 3GPP and 3GPP2 multimedia files
+1F9D,??,0,z|tar.z,compressed file (often tar zip) using Lempel-Ziv-Welch algorithm
+1FA0,??,0,z|tar.z,Compressed file (often tar zip) using LZH algorithm
+4241434B4D494B454449534B,BACKMIKEDISK,0,bac,AmiBack Amiga Backup data file
+494E4458,INDX,0,idx,AmiBack Amiga Backup index file
+62706C697374,bplist,0,plist,Binary Property List file 
+425A68,BZh,0,bz2,Compressed file using Bzip2 algorithm
+474946383761|474946383961,GIF87a|GIF89a,0,gif,Image file encoded in the Graphics Interchange Format (GIF)[7]
+49492A00 (little-endian)|4D4D002A(big-endian),II*?|MM?*,0,tif|tiff,Tagged Image File Format (TIFF)
+49492A00100000004352,II*?????CR,0,cr2,Canon RAW Format Version 2[8]|Canon's RAW format is based on TIFF.[9]
+802A5FD7,€*_×,0,cin,Kodak Cineon image
+524E4301|524E4302,RNC?|RNC?,0,,Compressed file using Rob Northen Compression (version 1 and 2) algorithm
+4E555255494D47|4E55525550414C,NURUIMG|NURUPAL,0,nui|nup,nuru ASCII/ANSI image and palette files
+53445058(big-endian format)|58504453(little-endian format),SDPX|XPDS,0,dpx,SMPTE DPX image
+762F3101,v/1?,0,exr,OpenEXR image
+425047FB,BPGû,0,bpg,Better Portable Graphics format[10]
+FFD8FFDB|FFD8FFE000104A4649460001|FFD8FFEE|FFD8FFE1????457869660000,ÿØÿÛ|ÿØÿà??JFIF??|ÿØÿî|ÿØÿá??Exif??,0,jpg|jpeg,JPEG raw or in the JFIF or Exif file format[11]
+FFD8FFE0,ÿØÿà,0,jpg,JPEG raw or in the JFIF or Exif file format[11]
+0000000C6A5020200D0A870A|FF4FFF51,????jP????‡?|ÿOÿQ,0,jp2|j2k|jpf|jpm|jpg2|j2c|jpc|jpx|mj2,JPEG 2000 format[12]
+464F524D????????494C424D,FORM????ILBM,0|any,ilbm|lbm|ibm|iff,IFF Interleaved Bitmap Image
+464F524D????????38535658,FORM????8SVX,0|any,8svx|8sv|svx|snd|iff,IFF 8-Bit Sampled Voice
+464F524D????????4143424D,FORM????ACBM,0|any,acbm|iff,Amiga Contiguous Bitmap
+464F524D????????414E424D,FORM????ANBM,0|any,anbm|iff,IFF Animated Bitmap
+464F524D????????414E494D,FORM????ANIM,0|any,anim|iff,IFF CEL Animation
+464F524D????????46415858,FORM????FAXX,0|any,faxx|fax|iff,IFF Facsimile Image
+464F524D????????46545854,FORM????FTXT,0|any,ftxt|iff,IFF Formatted Text
+464F524D????????534D5553,FORM????SMUS,0|any,smus|smu|mus|iff,IFF Simple Musical Score
+464F524D????????434D5553,FORM????CMUS,0|any,cmus|mus|iff,IFF Musical Score
+464F524D????????5955564E,FORM????YUVN,0|any,yuvn|yuv|iff,IFF YUV Image
+464F524D????????46414E54,FORM????FANT,0|any,iff,Amiga Fantavision Movie
+464F524D????????41494646,FORM????AIFF,0|any,aiff|aif|aifc|snd|iff,Audio Interchange File Format
+4C5A4950,LZIP,0,lz,lzip compressed file
+4D5A,MZ,0,exe|scr|sys|dll|fon|cpl|iec|ime|rs|tsp|mz,DOS MZ executable and its descendants (including NE and PE)
+5A4D,ZM,0,exe,DOS ZM executable and its descendants (rare)
+504B0304|504B0506(empty archive)|504B0708(spanned archive),PK??|PK??|PK??,0,zip|aar|apk|docx|epub|ipa|jar|kmz|maff|msix|odp|ods|odt|pk3|pk4|pptx|usdz|vsdx|xlsx|xpi,zip file format and formats based on it<virg> such as EPUB<virg> JAR<virg> ODF<virg> OOXML
+526172211A0700,Rar!???,0,rar,Roshal ARchive compressed archive v1.50 onwards[13]
+526172211A070100,Rar!????,0,rar,Roshal ARchive compressed archive v5.00 onwards[14]
+7F454C46,?ELF,0,,Executable and Linkable Format
+89504E470D0A1A0A,‰PNG????,0,png,Image encoded in the Portable Network Graphics format[15]
+C9,É,0,com,CP/M 3 and higher with overlays[16]
+CAFEBABE,Êþº¾,0,class,Java class file<virg> Mach-O Fat Binary
+EFBBBF,ï»¿,0,txt|others,UTF-8 byte order mark<virg> commonly seen in text files.[17][18][19]
+FFFE,ÿþ,0,txt|others,UTF-16LE byte order mark<virg> commonly seen in text files.[17][18][19]
+FEFF,þÿ,0,txt|others,UTF-16BE byte order mark<virg> commonly seen in text files.[17][18][19]
+FFFE0000,ÿþ??,0,txt|others,UTF-32LE byte order mark for text[17][19]
+0000FEFF,??þÿ,0,txt|others,UTF-32BE byte order mark for text[17][19]
+2B2F7638|2B2F7639|2B2F762B|2B2F762F,+/v8|+/v9|+/v+|+/v/,0,,UTF-7 byte order mark for text[20][19]
+0EFEFF,?þÿ,0,txt|others,SCSU byte order mark for text[20][19]
+DD736673,Ýsfs,0,,UTF-EBCDIC byte order mark for text[20][19]
+FEEDFACE,þíúÎ,0|0x1000,,Mach-O binary (32-bit)
+FEEDFACF,þíúÏ,0|0x1000,,Mach-O binary (64-bit)
+FEEDFEED,þíþí,0,,JKS JavakeyStore
+CEFAEDFE,Îúíþ,0,,Mach-O binary (reverse byte ordering scheme<virg> 32-bit)[21]
+CFFAEDFE,Ïúíþ,0,,Mach-O binary (reverse byte ordering scheme<virg> 64-bit)[21]
+25215053,%!PS,0,ps,PostScript document
+495453460300000060000000,ITSF????`???,0,chm,MS Windows HtmlHelp Data
+255044462D|DFBF34EBCE,%PDF-,0,pdf,PDF document[22]
+3026B2758E66CF11A6D900AA0062CE6C,0&²uŽfÏ?¦Ù?ª?bÎl,0,asf|wma|wmv,Advanced Systems Format[23]
+2453444930303031,$SDI0001,0,,System Deployment Image<virg> a disk image format used by Microsoft
+4F676753,OggS,0,ogg|oga|ogv,Ogg<virg> an open source media container format
+38425053,8BPS,0,psd,Photoshop Document file<virg> Adobe Photoshop's native file format
+52494646????????57415645,RIFF????WAVE,0,wav,Waveform Audio File Format
+52494646????????41564920,RIFF????AVI?,0,avi,Audio Video Interleave video format
+FFFB||FFF3|FFF2,ÿû|ÿó|ÿò,0,mp3,MPEG-1 Layer 3 file without an ID3 tag or with an ID3v1 tag (which is appended at the end of the file)
+494433,ID3,0,mp3,MP3 file with an ID3v2 container
+424D,BM,0,bmp|dib,BMP file<virg> a bitmap format used mostly in the Windows world
+4344303031,CD001,0x8001|0x8801|0x9001,iso,ISO9660 CD/DVD image file[24]
+53494D504C452020|3D20202020202020|2020202020202020|202020202054,SIMPLE??|=???????|????????|?????T,0,fits,Flexible Image Transport System (FITS)[25]
+664C6143,fLaC,0,flac,Free Lossless Audio Codec[26]
+4D546864,MThd,0,mid|midi,MIDI sound file[27]
+D0CF11E0A1B11AE1,ÐÏ?à¡±?á,0,doc|xls|ppt|msi|msg,Compound File Binary Format<virg> a container format defined by Microsoft COM. It can contain the equivalent of files and directories. It is used by Windows Installer and for documents in older versions of Microsoft Office.[28] It can be used by other programs as well that rely on the COM and OLE API's.
+6465780A30333500,dex?035?,0,dex,Dalvik Executable
+4B444D,KDM,0,vmdk,VMDK files[29][30]
+43723234,Cr24,0,crx,Google Chrome extension[31] or packaged app[32]
+41474433,AGD3,0,fh8,FreeHand 8 document[33][34][35]
+05070000424F424F0507000000000000000000000001,????BOBO??????????????,0,cwk,AppleWorks 5 document
+0607E100424F424F0607E10000000000000000000001,??á?BOBO??á???????????,0,cwk,AppleWorks 6 document
+455202000000|8B455202000000,ER????|‹ER????,0,toast,Roxio Toast disc image file
+6B6F6C79,koly,end–512,dmg,Apple Disk Image file
+78617221,xar!,0,xar,eXtensible ARchive format[36]
+504D4F43434D4F43,PMOCCMOC,0,dat,Windows Files And Settings Transfer Repository[37] See also USMT 3.0 (Win XP)[38] and USMT 4.0 (Win 7)[39] User Guides
+4E45531A,NES?,0,nes,Nintendo Entertainment System ROM file[40]
+7573746172003030|7573746172202000,ustar?00|ustar???,257,tar,tar archive[41]
+4F4152??,OAR?,0,oar,OAR file archive format<virg> where ?? is the format version.
+746F7833,tox3,0,tox,Open source portable voxel file[42]
+4D4C5649,MLVI,0,MLV,Magic Lantern Video file[43]
+44434D015041333050413330,DCM?PA30|PA30,0,,Windows Update Binary Delta Compression file[44]
+377ABCAF271C,7z¼¯'?,0,7z,7-Zip File Format
+1F8B,?‹,0,gz|tar.gz,GZIP compressed file[45]
+FD377A585A 00,ý7zXZ?,0,xz|tar.xz,XZ compression utility|using LZMA2 compression
+04224D18,?"M?,0,lz4,LZ4 Frame Format[46]|Remark: LZ4 block format does not offer any magic bytes.[47]
+4D534346,MSCF,0,cab,Microsoft Cabinet file
+535A444488F02733,SZDDˆð'3,0,??_,Microsoft compressed file in Quantum format<virg> used prior to Windows XP. File can be decompressed using Extract.exe or Expand.exe distributed with earlier versions of Windows. After compression<virg> the last character of the original filename extension is replaced with an underscore<virg> e.g. ‘Setup.exe’ becomes ‘Setup.ex_’.
+464C4946,FLIF,0,flif,Free Lossless Image Format
+1A45DFA3,?Eß£,0,mkv|mka|mks|mk3d|webm,Matroska media container<virg> including WebM
+4D494C20,MIL?,0,stg,"SEAN : Session Analysis" Training file. Also used in compatible software "Rpw : Rowperfect for Windows" and "RP3W : ROWPERFECT3 for Windows".
+41542654464F524D????????444A56,AT&TFORM????DJV,0,djvu|djv,DjVu document|The following byte is either 55 (U) for single-page or 4D (M) for multi-page documents.
+3082,0<virg>,0,der,DER encoded X.509 certificate
+4449434D,DICM,128,dcm,DICOM Medical File Format
+774F4646,wOFF,0,woff,WOFF File Format 1.0
+774F4632,wOF2,0,woff2,WOFF File Format 2.0
+3C3F786D6C20|3C003F0078006D006C0020|003C003F0078006D006C0020|3C0000003F000000780000006D0000006C00000020000000|0000003C0000003F000000780000006D0000006C00000020|4C6FA7949340,<?xml?|<???x?m?l???|?<???x?m?l??|<???????x???m???l???????|???<???????x???m???l????|Lo§”“@,0|after BOM,xml,eXtensible Markup Language[18][48]
+0061736D,?asm,0,wasm,WebAssembly binary format[49]
+CF8401,Ï„?,0,lep,Lepton compressed JPEG image[50]
+435753|465753,CWS|FWS,0,swf,Adobe Flash .swf
+213C617263683E0A,!<arch>?,0,deb,linux deb file
+52494646????????57454250,RIFF????WEBP,0,webp,Google WebP image file<virg> where ?? ?? ?? ?? is the file size. More information on WebP File Header
+27051956,'??V,0,,U-Boot / uImage. Das U-Boot Universal Boot Loader.[51]
+7B5C72746631,{\rtf1,0,rtf,Rich Text Format
+54415045,TAPE,0,,Microsoft Tape Format
+47,G,0|0xBC|0x178|(every 188th byte),ts|tsv|tsa|mpg|mpeg,MPEG Transport Stream (MPEG-2 Part 1)[52]
+000001BA,???º,0,m2p|vob|mpg|mpeg,MPEG Program Stream (MPEG-1 Part 1 (essentially identical) and MPEG-2 Part 1)
+000001B3,???³,0,mpg|mpeg,MPEG-1 video and MPEG-2 video (MPEG-1 Part 2 and MPEG-2 Part 2)
+6674797069736F6D,ftypisom,4,mp4,ISO Base Media file (MPEG-4)
+7801|785E|789C|78DA|7820|787D|78BB|78F9,x?|x^|xœ|xÚ|x?|x}|x»|xù,0,zlib,No Compression (no preset dictionary)|Best speed (no preset dictionary)|Default Compression (no preset dictionary)|Best Compression (no preset dictionary)|No Compression (with preset dictionary)|Best speed (with preset dictionary)|Default Compression (with preset dictionary)|Best Compression (with preset dictionary)
+62767832,bvx2,0,lzfse,LZFSE - Lempel-Ziv style data compression algorithm using Finite State Entropy coding. OSS by Apple.[53]
+4F5243,ORC,0,orc,Apache ORC (Optimized Row Columnar) file format
+4F626A01,Obj?,0,avro,Apache Avro binary file format
+53455136,SEQ6,0,rc,RCFile columnar file format
+65877856,e‡xV,0,p25|obt,PhotoCap Object Templates
+5555AAAA,UUªª,0,pcv,PhotoCap Vector
+785634,xV4,0,pbt|pdt|pea|peb|pet|pgt|pict|pjt|pkt|pmt,PhotoCap Template
+50415231,PAR1,0,,Apache Parquet columnar file format
+454D5832,EMX2,0,ez2,Emulator Emaxsynth samples
+454D5533,EMU3,0,ez3|iso,Emulator III synth samples
+1B4C7561,?Lua,0,luac,Lua bytecode[54]
+626F6F6B000000006D61726B00000000,book????mark????,0,alias,macOS file Alias[55] (Symbolic link)
+5B5A6F6E655472616E736665725D,[ZoneTransfer],0,Identifier,Microsoft Zone Identifier for URL Security Zones[56]
+52656365697665643A,Received:,0,eml,Email Message var5[citation needed]
+20020162A01EAB0702000000,???b??«?????,0,tde,Tableau Datasource
+3748030200000000583530394B4559,7H??????X509KEY,0,kdb,KDB file
+85????03,…???,0,pgp,PGP file [57]
+28B52FFD,(µ/ý,0,zst,Zstandard compressed file[58][59]
+5253564B44415441,RSVKDATA,0,rs,QuickZip rs compressed archive[60][61]
+3A290A,:)?,0,sml,Smile file
+4A6F7921,Joy!,0,,Preferred Executable Format
+310A3030,1?00,0,srt,SubRip File
+3412AA55,4?ªU,0,vpk,VPK file<virg> used to store game data for some Source Engine games
+2A2A4143 45 2A 2A,**ACE**,0,ace,ACE (compressed file format)[citation needed]
+60EA,`ê,0,arj,ARJ
+49536328,ISc(,0,cab,InstallShield CAB Archive File
+4B57414A,KWAJ,0,??_,Windows 3.1x Compressed File
+535A4444,SZDD,0,??_,Windows 9x Compressed File
+5A4F4F,ZOO,0,zoo,Zoo (file format)
+50310A,P1?,0,pbm,Portable bitmap
+50320A,P2?,0,pgm,Portable Gray Map
+50330A,P3?,0,ppm,Portable Pixmap
+D7CDC69A,×ÍÆš,0,wmf,Windows Metafile
+67696D7020786366,gimp xcf,0,xcf,XCF (file format)
+2F2A2058504D202A2F,/* XPM */,0,xpm,X PixMap
+414646,AFF,0,aff,Advanced Forensics Format
+455646 32,EVF2,0,Ex01,EnCase EWF version 2 format
+455646,EVF,0,e01,EnCase EWF version 1 format
+514649,QFI,0,qcow,qcow file format
+52494646????????41434F4E,RIFF????ACON,0,ani,Animated cursor
+52494646????????43444441,RIFF????CDDA,0,cda,.cda file
+52494646????????514C434D,RIFF????QLCM,0,qcp,Qualcomm PureVoice file format
+52494658????????4647444D(big-endian)|58464952????????4D444746(little-endian),RIFX????FGDM|XFIR????MDGF,0,dcr,Adobe Shockwave[62][63][64]
+52494658????????4D563933(big-endian)|58464952????????3339564D(little-endian),RIFX????MV93|XFIR????39VM,0,dir|dxr|drx,Macromedia Director file format[65][63][64]
+464C56,FLV,0,flv,Flash Video file
+3C3C3C204F7261636C6520564D205669727475616C426F78204469736B20496D616765203E3E3E,<<< Oracle VM VirtualBox Disk Image >>>,0,vdi,VirtualBox Virtual Hard Disk file format
+636F6E6E6563746978,connectix,0,vhd,Windows Virtual PC Virtual Hard Disk file format
+7668647866696C65,vhdxfile,0,vhdx,Windows Virtual PC Windows 8 Virtual Hard Disk file format
+49735A21,IsZ!,0,isz,Compressed ISO image
+444141,DAA,0,daa,Direct Access Archive PowerISO
+4C664C65,LfLe,0,evt,Windows Event Viewer file format
+504D4343,PMCC,0,grp,Windows 3.x Program Manager Program Group file format
+4B434D53,KCMS,0,icm,ICC profile
+72656766,regf,0,dat,Windows Registry file
+2142444E,!BDN,0,pst,Microsoft Outlook Personal Storage Table file
+445241434F,DRACO,0,drc,3D model compressed with Google Draco[66]
+47524942,GRIB,0,grib|grib2,Gridded data (commonly weather observations or forecasts) in the WMO GRIB or GRIB2 format[67]
+424C454E444552,BLENDER,0,blend,Blender File Format[68]
+0000000C4A584C200D0A870A|FF0A,????JXL???‡?|ÿ?,0,jxl,Image encoded in the JPEG XL format[69]
+0001000000,?????,0,ttf|tte|dfont,TrueType font
+4F54544F,OTTO,0,otf,OpenType font[70]
+23254D6F64756C65,#%Module,0,,Modulefile for Environment Modules[71]
+4D5357494D000000D000000000,MSWIM???Ð????,0,wim|swm|esd,Windows Imaging Format file
+212D31534C4F421F,!-1SLOB?,0,slob,Slob (sorted list of blobs) is a read-only<virg> compressed data store with dictionary-like interface[72]
+ACED,,0,,Serialized Java Data[73]
