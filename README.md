@@ -1,8 +1,7 @@
 # Python Collection
 Minha coleção pessoal de scripts em Python
 ## AI
-### BOTS
-#### ChatBots
+### Testes com Inteligência Artificial, bots.
  * Bot.py - ChatBot Simples em python.
 
 ## Algoritimos
