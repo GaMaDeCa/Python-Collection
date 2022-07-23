@@ -33,3 +33,24 @@ Minha coleção pessoal de scripts em Python
  * File Type Finder/FileTypeFinder.py - Tenta descobrir o tipo de arquivo usando como referência os códigos de identificação do arquivo(Não precisa saber a extensão).
  * GeradorWebGaleria.py - Pega recursivamente todas as imagens dado um caminho como entrada e monta uma página html galeria simples pra poder visualizar.
  * RandomBytesGenerator.py - Gerador de Bytes Aleatórios, demora muito para gerar poucos megabytes.
+
+## Internet
+### Utilitários em geral para internet.
+ * Brute Force/HTTP Login Brute Force/HTTP Login Brute Force.py - Ataque de força bruta em protocolos http.
+ * Downloaders/AOCCDown.py - Teste com um downloader aleatório em um site de anime.
+ * MeuIP.py - Exibe seu Hostname, IP Local e IP Externo.
+ * WIFI_IP_LIST.py - Obtém o endereço de IP de todos que estão conectados na sua rede(WIFI) a menos que o dispositivo tenha alguma proteção contra pings não autorizados, não deve ser usado como ferramenta, apenas para estudo sobre threads, se quiser obter esses dados(de quem está conectado) use o comando arp.
+
+## Matemática
+### Algoritimos que usam fórmulas matemáticas ou tem alguma relação com elas.
+ * Constante de Kaprekar/6174.py - Implementação da constante de Kaprekar em python.
+ * Probabilidades & Estatísticas/Sorte.py - Calcula a probabilidade e monta um dado estatístico exibindo o que é mais provável de acontecer dado um histórico de eventos.
+ * CalculadoraString.py - Calcula o resultado da operação aritimética de uma string.
+
+## Sistemas
+### Sistemas diversos.
+ * TODO.py - Classe de lista TODO, com opção de adicionar, printar tudo, salvar e carregar dados de listas TODO.
+
+## Textos e Linguagens
+### Linguagens e manipulações de textos.
+ * Palindromo.py - Verifica se a entrada do usuário é um palíndromo ou não.
