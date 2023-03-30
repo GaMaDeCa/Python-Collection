@@ -1,0 +1,1 @@
+print(open(__file__,'r').read(),end='')
