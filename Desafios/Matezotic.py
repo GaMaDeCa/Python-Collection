@@ -112,6 +112,20 @@ def numerosAmigaveis(numero):
         divisores+=1
     return numero_igual,e_amigo_de
 
+#194979 = 1**5 9**5 4**5 9**5 7**5 9**5?
+def numerosNarcisistas(limit,init=0):
+    #text=''
+    for i in range(init,limit+1):
+        si=str(i)
+        li=len(si)
+        ji=0
+        stmp=''
+        for j in range(li):
+            ji+=int(si[j])**li
+            stmp+=f'{si[j]}**{li} '
+        if i==ji:print(f'{si} = {stmp}')#text+=f'{si} = {stmp}\n'
+    #return text
+
 #print(''.join([f'{n}*{i}={n*i}\n' for i in range(1,11)])) #Função antiga de printar tabuada
 #print(gerarTabuada(4,6,3)) #Printa uma tabuada de 3 a 6 da tabuada do 4
 def gerarTabuada(numero,repetir_ate=10,minimo=1,msg_inicial='[+]---Resultados---+>:\n',msg_final='[+-------FIM-------+]',marcador='*'):
