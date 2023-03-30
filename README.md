@@ -54,5 +54,3 @@ Minha coleção pessoal de scripts em Python
 ## Textos e Linguagens
 ### Linguagens e manipulações de textos.
  * Palindromo.py - Verifica se a entrada do usuário é um palíndromo ou não.
-
-## Ola Mundo.py - Um "Ola Mundo!" um pouco mais difícil de compreender.
