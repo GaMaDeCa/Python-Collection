@@ -1,6 +1,6 @@
 #coding:latin-1
 
-# Multiplica dois números utilizando somente soma, subtração e a regra de sinais
+# Multiplica dois nÃºmeros utilizando somente soma, subtraÃ§Ã£o e a regra de sinais
 def multiplicaSoma(n1,n2):
     resultado=0
     n1=-n1 if(n1<0 and n2<0)or(n2<0 and n1>0)else n1
@@ -12,8 +12,8 @@ def multiplicaSoma(n1,n2):
             n2-=1
     return resultado
 
-# Divide dois números usando somente a subtração, soma e a regra de sinais
-# TODO>Suporte a números quebrados, se a o resto da divisão != 0 então retorna um erro(retorna o resultado sem os números quebrados)
+# Divide dois nÃºmeros usando somente a subtraÃ§Ã£o, soma e a regra de sinais
+# TODO>Suporte a nÃºmeros quebrados, se a o resto da divisÃ£o != 0 entÃ£o retorna um erro(retorna o resultado sem os nÃºmeros quebrados)
 def diviSub(n1,n2):
     #n1_t=float(n1)
     bolha=0
@@ -45,7 +45,7 @@ def raiz(n):
         if n==m:
             c=False
         elif m>n:
-            i-=1#TODO>Calcular numero quebrado(Testar:raiz rápida=n**(0.5))
+            i-=1#TODO>Calcular numero quebrado(Testar:raiz rÃ¡pida=n**(0.5))
             c=False
         else:
             i+=1
@@ -62,7 +62,7 @@ def multiplicacaoRussa(n,n2):
             n-=1
     return n2+tmp
 
-#Método Pitágoras para calcular potências: 5**2 = 1+3+5+7+9 = 25
+#MÃ©todo PitÃ¡goras para calcular potÃªncias: 5**2 = 1+3+5+7+9 = 25
 def potenciaMetodoPitagoras(numero,vezes):
     n=1
     soma=n
@@ -72,7 +72,7 @@ def potenciaMetodoPitagoras(numero,vezes):
     return soma
 
 # Mega Sena (60 possibilidades)
-# Jogada = 6 números
+# Jogada = 6 nÃºmeros
 #resultado=analise_combinatoria(60,6) #50.063.860
 #possibilidade_de_acertar(resultado) #TODO>Corrigir
 def analise_combinatoria(total_possibilidades,eventos):
@@ -83,19 +83,19 @@ def possibilidade_de_acertar(resultado):return(1/resultado)*100
 
 def checaParImpar(n):return'Impar'if n%2 else'Par'
 
-#Calcula a média dada uma lista de inteiros
+#Calcula a mÃ©dia dada uma lista de inteiros
 #media([5,7,2,7,10,3])
 def media(lista):return sum(lista)/len(lista)
 
 #Formula do numero triangular:formula_n_triang.txt
 def numeroTriangular(n):return sum(range(1,n+1))
 
-def multiploNove(numero):return 12345679*numero if(numero>=9 and numero<=81)and numero%9==0 else'Digite um número entre 9 e 81 que seja múltiplo de 9!'
+def multiploNove(numero):return 12345679*numero if(numero>=9 and numero<=81)and numero%9==0 else'Digite um nÃºmero entre 9 e 81 que seja mÃºltiplo de 9!'
 
-#Numeros amigaveis(Numeros cuja determinada fórmula resulta em um ao outro):
-#220 é dividido sem resto por 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 e 110,
-#cuja soma de todos os divisores é 284, e 284 fazendo a mesma conta a soma fica 220(1, 2, 4, 71 e 142).
-#Fermat descobriu também o par 17296 e 18416.
+#Numeros amigaveis(Numeros cuja determinada fÃ³rmula resulta em um ao outro):
+#220 Ã© dividido sem resto por 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 e 110,
+#cuja soma de todos os divisores Ã© 284, e 284 fazendo a mesma conta a soma fica 220(1, 2, 4, 71 e 142).
+#Fermat descobriu tambÃ©m o par 17296 e 18416.
 #Descartes descobriu o par 9363584 e 9437056.
 def numerosAmigaveis(numero):
     e_amigo_de=0
@@ -126,7 +126,7 @@ def numerosNarcisistas(limit,init=0):
         if i==ji:print(f'{si} = {stmp}')#text+=f'{si} = {stmp}\n'
     #return text
 
-#print(''.join([f'{n}*{i}={n*i}\n' for i in range(1,11)])) #Função antiga de printar tabuada
+#print(''.join([f'{n}*{i}={n*i}\n' for i in range(1,11)])) #FunÃ§Ã£o antiga de printar tabuada
 #print(gerarTabuada(4,6,3)) #Printa uma tabuada de 3 a 6 da tabuada do 4
 def gerarTabuada(numero,repetir_ate=10,minimo=1,msg_inicial='[+]---Resultados---+>:\n',msg_final='[+-------FIM-------+]',marcador='*'):
     tab=msg_inicial
@@ -134,3 +134,15 @@ def gerarTabuada(numero,repetir_ate=10,minimo=1,msg_inicial='[+]---Resultados---
         resultado=i*numero
         tab+=marcador+f'{i} x '.rjust(10,' ')+f'{numero} = '+f'{resultado}\n'.rjust(4,' ')
     return tab+msg_final
+
+#Inverte um nÃºmero usando operaÃ§Ãµes de soma, multiplicaÃ§Ã£o, divisÃ£o e resto da divisÃ£o
+#NÃºmeros que terminam com 0 nÃ£o sÃ£o invertidos corretamente(Pq o python nÃ£o permite isso com inteiros)
+def inverterNumero(n:int):
+    nRev,nTmp=0,n
+    while nTmp>0:
+        nRev=(nRev*10)+(nTmp%10)
+        nTmp//=10
+    return nRev
+
+#Usa a funÃ§Ã£o acima pra identificar se o nÃºmero Ã© um palÃ­ndromo
+def isNumeroPalindromo(n:int):return n==inverterNumero(n)
