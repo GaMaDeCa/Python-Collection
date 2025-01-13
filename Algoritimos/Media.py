@@ -1,6 +1,6 @@
 #coding:latin-1
 
-#Media.py - github.com/Alien8652
+#Media.py - github.com/GaMaDeCa
 # Algoritimo para criar um dicionário com nomes de alunos, notas e finalizar calculando a média desse aluno.
 
 # Cria um list array com dicionários dentro para mais facilidade no acesso
