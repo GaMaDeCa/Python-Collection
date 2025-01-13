@@ -1,5 +1,5 @@
 # coding: latin-1
-# [Sorte] - Gabriel Matheus de Castro(github.com/Alien8652)
+# [Sorte] - Gabriel Matheus de Castro(github.com/GaMaDeCa)
 # Calcula a probabilidade de um evento acontecer baseado
 # em dados anteriores(histórico), exibindo em porcentagem
 # a chance de outras probabilidades.
