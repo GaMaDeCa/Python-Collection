@@ -2,7 +2,7 @@
 import time,os,platform,random
 
 # Criado por Gabriel Matheus de Castro(05/11/2021)
-# github.com/Alien8652
+# github.com/GaMaDeCa
 
 # Funções do bot:
 #       Cumprimento inicial baseado no horário do computador
