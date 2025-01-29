@@ -54,3 +54,11 @@ Minha coleção pessoal de scripts em Python
 ## Textos e Linguagens
 ### Linguagens e manipulações de textos.
  * Palindromo.py - Verifica se a entrada do usuário é um palíndromo ou não.
+
+
+Me ajude a criar uma coleção muito maior mandando um pix(qualquer valor já incentiva, sabe):
+45fff5b3-eb94-49c5-91d5-182e3b020597
+
+
+Help me to finish my projects donating to my PayPal:
+[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?business=GCFH3VL3RN5YJ&no_recurring=0&item_name=Help+me+finish+my+programming+projects+to+get+a+job%2C+I+don%27t+have+computer+yet+but+I+still+can+make+some+projects+with+my+phone&currency_code=BRL)
