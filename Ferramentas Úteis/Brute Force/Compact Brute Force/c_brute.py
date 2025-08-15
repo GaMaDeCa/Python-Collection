@@ -1,7 +1,7 @@
 #coding:latin-1
 import time,os,sys,platform
 
-# Gabriel Matheus de Castro 04/04/2022 (#github.com/Alien8652)
+# Gabriel Matheus de Castro 04/04/2022 (#github.com/GaMaDeCa)
 # Compact Brute - Brute Force em arquivos compactados, ferramenta simples e com alguns defeitos(Extrair todos os arquivos não é um método seguro, além de deixar tudo bagunçado).
 # Uso: python c_brute.py arquivo.zip senhas.txt
 # ATENÇÃO: Quando a senha for encontrada, todos os arquivos serão extraídos na pasta atual!
