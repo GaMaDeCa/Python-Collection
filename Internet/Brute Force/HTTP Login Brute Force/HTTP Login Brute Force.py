@@ -1,6 +1,6 @@
 import os, requests, sys
 
-# Alien8652 - 2018
+# GaMaDeCa - 2018
 # Uso>
 #  python "HTTP Login Brute Force.py" "http://192.168.0.1/login.html" Usuarios.txt Senhas.txt
 #  python "HTTP Login Brute Force.py" "http://192.168.0.1/login.html" ambos.txt
