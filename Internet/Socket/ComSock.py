@@ -110,17 +110,17 @@ class ComunicadorSocket:
     def setNumeroConexoes(ctx,numero_de_conexoes):ctx.numero_de_conexoes=numero_de_conexoes
     def setIP(ctx,ip):ctx.ip=ip
 
-def printAjuda():print('[?]---Ajuda\n[Comunicador Socket]\nGabriel Matheus de Castro(github.com/Alien8652)\n\n M = Enviar Mensagem\n G = Receber Mensagem\n A = Enviar Arquivo\n V = Receber Arquivo\n S = Obter informaÁıes do soquete(IP,PORTA)\n H = Este Menu de Ajuda\n E = Fechar Conex„o(Sair/Exit)\n\nINSTRU«’ES:Escolha uma das duas opÁıes entre Envio e Recebimento do MESMO TIPO(Mensagem e Mensagem, Arquivo e Arquivo), no outro lado(Servidor) escolha a opÁ„o contr·ria a que vc escolheu mas sempre do MESMO TIPO(Se escolheu Envio no Cliente escolha Receber no Servidor, caso contr·rio pode ficar travado a conex„o), insira as especificaÁıes exigidas e os dados ser„o enviados/recebidos!\n\n')
+def printAjuda():print('[?]---Ajuda\n[Comunicador Socket]\nGabriel Matheus de Castro(github.com/GaMaDeCa)\n\n M = Enviar Mensagem\n G = Receber Mensagem\n A = Enviar Arquivo\n V = Receber Arquivo\n S = Obter informa√ß√µes do soquete(IP,PORTA)\n H = Este Menu de Ajuda\n E = Fechar Conex√£o(Sair/Exit)\n\nINSTRU√á√ïES:Escolha uma das duas op√ß√µes entre Envio e Recebimento do MESMO TIPO(Mensagem e Mensagem, Arquivo e Arquivo), no outro lado(Servidor) escolha a op√ß√£o contr√°ria a que vc escolheu mas sempre do MESMO TIPO(Se escolheu Envio no Cliente escolha Receber no Servidor, caso contr√°rio pode ficar travado a conex√£o), insira as especifica√ß√µes exigidas e os dados ser√£o enviados/recebidos!\n\n')
 
 def iniciar():
-    modo=input('[M]---Modo\n C = Modo Cliente(Escuta)\n S = Modo Servidor(Conex„o Direta com o EndereÁo)\n E = Sair\n\nEscolha o modo: ').strip()[0].lower()
+    modo=input('[M]---Modo\n C = Modo Cliente(Escuta)\n S = Modo Servidor(Conex√£o Direta com o Endere√ßo)\n E = Sair\n\nEscolha o modo: ').strip()[0].lower()
     cs=ComunicadorSocket()
     porta=cs.getPorta()
     ip_cliente=''
     if modo=='c':print(f'[!]---Escutando na porta {porta}...');cs.escutar()
-    elif modo=='s':ip_cliente=input('[<]---Insira um endereÁo: ');cs.conectar(ip_cliente)
+    elif modo=='s':ip_cliente=input('[<]---Insira um endere√ßo: ');cs.conectar(ip_cliente)
     elif modo=='e':exit()
-    else:print('Insira uma opÁ„o!');iniciar()
+    else:print('Insira uma op√ß√£o!');iniciar()
     ip_servidor=cs.getIPServidor()
     ip=ip_cliente if ip_cliente!='' else ip_servidor
     ip=ip[0] if type(ip)==tuple and len(ip)>0 else ip
@@ -140,10 +140,11 @@ def iniciar():
             print('[V]---Esperando arquivo ser enviado...')
             print('[!]---Recebido com sucesso!'if cs.recArq() else'[E]---Falha ao receber!')
         elif opcao=='S':
-            print(f'EndereÁo IP conectado: {ip}\nPorta: {porta}')
+            print(f'Endere√ßo IP conectado: {ip}\nPorta: {porta}')
         elif opcao=='H':
             printAjuda()
     print('[!]---Saindo...')
     cs.fechar()
 
 if __name__=='__main__':iniciar()
+
